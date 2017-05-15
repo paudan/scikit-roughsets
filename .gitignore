@@ -1,0 +1,19 @@
+### Python template
+# Byte-compiled / optimized / DLL files
+*/.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# IntelliJ project files
+*.idea
+*.iml
+out
+gen
+
+build
+dist
+*.egg-info
