@@ -13,7 +13,7 @@ The package can be easily installed using Python's *pip* utility.
 Usage
 -----
 
-The usage is simplly straightforward, identical to scikit's feature selection module:
+The usage is very straightforward, identical to scikit's feature selection module:
 
 .. code:: python
 
@@ -40,4 +40,4 @@ The usage is simplly straightforward, identical to scikit's feature selection mo
 Several restrictions apply to its current use:
 
 - *X* must be an integer matrix, and *y* must must be an integer array
-- It does not work with NaN values, thus, initial preprocessiong must be performed by the user
+- It does not work with NaN values, thus, initial preprocessing must be performed by the user
