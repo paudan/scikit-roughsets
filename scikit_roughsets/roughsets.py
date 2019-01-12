@@ -18,7 +18,7 @@ class RoughSetsReducer:
 
         p, q = self.__size(x)
         ap, aq = self.__size(a)
-        z = [e for e in xrange(1, q+1)]
+        z = [e for e in range(1, q+1)]
         tt = np.setdiff1d(z, a)
         tt_ind = np.setdiff1d(z, tt)-1
         if x.ndim == 1:
