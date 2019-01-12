@@ -25,7 +25,7 @@ class TestRoughsets(unittest.TestCase):
 
 
     def test_indiscernibility(self):
-        self.assertEqual([[1]], self.red.indisc(self.a, self.X))
+        np.array_equal([[1]], self.red.indisc(self.a, self.X))
 
     def test_indiscernibility2(self):
         result = np.array([[ 1, 2, 3, 0, 0, 0, 0, 0, 0, 0],
@@ -58,4 +58,4 @@ class TestRoughsets(unittest.TestCase):
         from scikit_roughsets.rs_reduction import RoughSetsSelector
         selector = RoughSetsSelector()
         X_selected = selector.fit(self.C, self.D).transform(self.C)
-        self.assertListEqual(X_selected.shape[1], 2)
+        self.assertEqual(X_selected.shape[1], 2)
