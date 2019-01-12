@@ -5,12 +5,7 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-addons:
-  apt:
-    packages:
-      - scikit-learn
 install:
+  - pip install scikit-learn
   - python setup.py -q install
-script: nosetests -s -v --with-coverage --cover-package=scikit_roughsets --cover-html
-cache: pip
-sudo: false
+script: unittest
