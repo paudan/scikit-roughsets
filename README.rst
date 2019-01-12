@@ -1,6 +1,8 @@
 scikit-roughsets
 ================
 
+[![Build Status](https://travis-ci.org/paudan/scikit-roughsets.svg?branch=master)
+
 This is an implementation of rough sets feature reduction algorithm, based on MATLAB code from
 `Dingyu Xue, YangQuan Chen. Solving applied mathematical problems with MATLAB <https://books.google.lt/books?id=V4vulPEc29kC>`_. Integration with *scikit-learn* package is also provided.
 
