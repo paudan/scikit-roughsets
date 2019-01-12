@@ -19,8 +19,7 @@ setup(
     author_email='danpaulius@gmail.com',
     license='MIT',
     keywords='machine_learning',
-    packages=['scikit_roughsets', 'scikit_roughsets.tests'],
-    package_dir={'scikit_roughsets': 'scikit_roughsets',
-                 'scikit_roughsets.tests': 'scikit_roughsets/tests'},
+    packages=['scikit_roughsets'],
+    package_dir={'scikit_roughsets': 'scikit_roughsets'},
     install_requires=['numpy', 'scikit-learn'],
 )
