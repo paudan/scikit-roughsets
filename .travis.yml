@@ -8,3 +8,5 @@ python:
 install:
   - pip install scikit-learn
   - python setup.py -q install
+script:
+  - python -m unittest
