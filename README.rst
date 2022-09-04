@@ -10,12 +10,17 @@ This is an implementation of rough sets feature reduction algorithm, based on MA
 Installation
 ------------
 
-The package can be easily installed using Python's *pip* utility.
+The package can be easily installed using Python's ``pip`` utility:
+
+.. code:: shell
+    
+    pip install git+https://github.com/paudan/scikit-roughsets.git
+    
 
 Usage
 -----
 
-The usage is very straightforward, identical to scikit's feature selection module:
+The usage is very straightforward, identical to ``scikit`` feature selection module:
 
 .. code:: python
 
@@ -43,3 +48,14 @@ Several restrictions apply to its current use:
 
 - *X* must be an integer matrix, and *y* must must be an integer array
 - It does not work with NaN values, thus, initial preprocessing must be performed by the user
+
+Tests
+-----
+
+Tests can be run using ``pytest`` tool:
+
+.. code:: shell
+
+    pytest tests/tests.py
+
+
